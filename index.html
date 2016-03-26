@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+    <!-- lang indica en que idioma esta escrito el contenido del
+    documento html, posicionamiento de la pagina -->
+    <title>Blog de Giggs3244</title>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- viewport forma en que se presenta la vista
+    width=device-width indica que el ancho de la pagina sea el mismo
+    ancho del dispositivo en el que se visualiza
+    initial-scale=1.0 indica que la pagina sea visualizada sin ningun zoom
+    digamos con el tamano original
+    -->
+    <link href="css/estilos.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Atributo defer funciona en la etiqueta script, solo en scripts
+    externos indica que hasta que no se cargue totalmente la pagina (los
+    elementos incluidos en esta 'contenido') no se ejecutara el script -->
+    <script defer src="js/jquery-2.2.0.min.js"></script>
+    <script defer src="js/bootstrap.min.js"></script>
+
+    <!-- Al descargar bootstrap vemos que en la carpeta css hay varias hojas
+    de estilo en cascada y para cada archivo existe otro con el mismo nombre
+    pero el segundo archivo incluye min en el nombre. En realidad ambos
+    archivos contienen la misma informacion pero el archivo que incluye min
+    esta formateado de forma que elimina todos los espacios lo que reduce el
+    tamano del archivo pero lo hace ilegible para su modificacion, por otro
+    lado el archivo que no incluye min en su nombre contiene espacios, iden-
+    tacion, saltos de lineas, etc para que sea mas legible el codigo y
+    entendible para los humanos -->
+    <body>
+        <!-- Para indicar que un elemento tiene varias clases estas se
+        colocan separadas por un espacio, de aqui que es importante que
+        no declaremos las clases en nuestro archivo css con espacios -->
+      <!--  <nav class="navbar navbar-default navbar-static-top">
+            <div class="container">
+                <div class="navbar-header">
+                     Netbeans indica que hay un error pero en realidad no es asi esto atributos
+                    que marca como error seran manejados por el script js de bootstrap
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Este boton despliega la barra de navegacion</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Blog de SGGIG</a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                    En el sitio de bootstrap hay demasiados ejemplos de templates (plantillas) de paginas web
+                    en donde podemos ver el codigo fuente y asi tener una base para nuestros sitios web y no
+                    necesariamente tomaremos la plantilla completa, podemos tomar partes de cada plantilla y
+                    aplicarlas a nuestros sitios web, tener en cuenta que para que todo funcione se deben enlazar
+                    todos los archivos pertinentes; los css, los scripts, etc
+                </div>
+            </div>
+        </nav> -->
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Blog de Giggs3244</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <form class="navbar-form navbar-right" action="Link.html">
+            <div class="form-group">
+              <input type="text" placeholder="Email" class="form-control">
+            </div>
+            <div class="form-group">
+              <input type="password" placeholder="Password" class="form-control">
+            </div>
+            <button type="submit" class="btn btn-success">Ingresar</button>
+          </form>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </nav>
+        <!-- Copy and paste -->
+         <div class="jumbotron">
+      <div class="container">
+        <h1>Welcome to the jungle!</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+      </div>
+    </div>
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-4">
+          <h2>Heading</h2>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+          <h2>Heading</h2>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+       </div>
+        <div class="col-md-4">
+          <h2>Heading</h2>
+          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div>
+      </div>
+
+      <hr>
+
+      <footer>
+        <p>&copy; 2015 Company, Inc.</p>
+      </footer>
+    </div>
+    </body>
+</html>
